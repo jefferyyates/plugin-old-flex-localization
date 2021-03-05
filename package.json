@@ -1,0 +1,18 @@
+{
+  "name": "plugin-flex-localization",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check",
+    "myStart": "flex-plugin -r dotenv/config bin/www.js"
+  },
+  "dependencies": {
+    "flex-plugin-scripts": "4.3.19-beta.0",
+    "react": "16.5.2",
+    "react-dom": "16.5.2"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "^1",
+    "dotenv": "^8.2.0"
+  }
+}
